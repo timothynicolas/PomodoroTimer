@@ -1,0 +1,61 @@
+/* NAV */
+
+nav{
+    display: flex;
+    background-color: yellow;
+    justify-content: space-between;
+    
+}
+
+/* LOGO */
+
+.logo{
+    height: 100px;
+}
+
+nav .logoContainer{
+    background-color: gray;
+}
+
+/* NAVBAR BUTTONS */
+nav .navbarContainer{
+    background-color: blue;
+    align-content: center;
+}
+
+.navbarButtons{
+    display: flex;
+    align-content: center;
+    list-style-type: none ;
+    gap: 50px;
+    padding: 0; 
+    margin: 0;
+}
+
+.navbarButtons li{
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+/* ACCOUNT CONTROLS */
+nav .navbarAccountControls{
+    background-color: red;
+    align-content: center;
+}
+
+.navbarAccountButtons{
+    display: flex;
+    align-content: center;
+    list-style-type: none ;
+    gap: 50px;
+    padding: 0; 
+    margin: 0;
+}
+
+.navbarAccountButtons li{
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+}
